@@ -1,0 +1,7 @@
+pyinstaller --onefile \
+    --add-data "nxlog-ce.msi;." \
+    --add-data "nxlog.bat;." \
+    --add-data "sysmon-config.xml;." \
+    --add-data "client.pem;." \
+    --add-data "automation.xml;." \
+    installer.py
